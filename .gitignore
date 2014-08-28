@@ -1,0 +1,5 @@
+target/**/*
+sdk_logs/*
+.settings/
+.project
+.classpath
