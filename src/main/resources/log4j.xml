@@ -13,7 +13,7 @@
     <appender name="SDK_IPHONE_LOG" class="biz.minaret.log4j.DatedFileAppender">
         <param name="ImmediateFlush" value="true" />
         <param name="Append" value="true" />
-        <param name="Directory" value="/home/hadoop/workspace_oss/Fingraph_SdkLogger/sdk_logs/"/>
+        <param name="Directory" value="/data/webapps/sdklogger/sdk_logs/"/>
         <param name="Prefix" value="WAS.sdk_iphone_log." />
         <param name="Suffix" value=".txt" />
         <param name="ScheduleType" value="DAILY" />
@@ -24,7 +24,7 @@
     <appender name="SDK_ANDROID_LOG" class="biz.minaret.log4j.DatedFileAppender">
         <param name="ImmediateFlush" value="true" />
         <param name="Append" value="true" />
-        <param name="Directory" value="/home/hadoop/workspace_oss/Fingraph_SdkLogger/sdk_logs/"/>
+        <param name="Directory" value="/data/webapps/sdklogger/sdk_logs/"/>
         <param name="Prefix" value="WAS.sdk_android_log." />
         <param name="Suffix" value=".txt" />
         <param name="ScheduleType" value="DAILY" />
